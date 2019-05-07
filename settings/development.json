@@ -1,0 +1,8 @@
+{
+    "databaseData": {
+        "host"     : "localhost",
+        "database" : "movies_db",
+        "user"     : "root",
+        "password" : "FAKE PASSWORD"
+    }
+}

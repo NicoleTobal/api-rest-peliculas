@@ -1,0 +1,25 @@
+{
+  "name": "api-rest-peliculas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "initialize-database": "mysql -h 127.0.0.1 -P 3306 --user=root --password=$mysql_password -s < database_script.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoleTobal/api-rest-peliculas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoleTobal/api-rest-peliculas/issues"
+  },
+  "homepage": "https://github.com/NicoleTobal/api-rest-peliculas#readme",
+  "dependencies": {
+    "fastify": "2.3.0",
+    "mysql": "2.17.1"
+  }
+}
